@@ -65,7 +65,7 @@ if (!isset($page_title)) {
 		</div>
 	  </div>
 	</nav>
-<div class="main_content">
+<div class="main_content" style="text-align:center;">
 <!-- End of Header -->
 
 
