@@ -30,7 +30,7 @@ if (!isset($page_title)) {
 			// Display links based upon the login status:
 			if (isset($_SESSION['user_id'])) {
 
-			echo '<a type="button" href="#" title="Logout">Logout</a>&nbsp&nbsp&nbsp&nbsp<a href="#" title="Change Your Password">Change Password</a>&nbsp&nbsp&nbsp&nbsp';
+			echo '<a type="button" href="#" title="Logout" >Logout</a>&nbsp&nbsp&nbsp&nbsp<a href="#" title="Change Your Password">Change Password</a>&nbsp&nbsp&nbsp&nbsp';
 
 			// Add links if the user is an administrator:
 			if ($_SESSION['user_level'] == 1){ echo '<a href="#" >View Users</a>&nbsp&nbsp&nbsp&nbsp<a href="#">Some Admin Page</a>';}
